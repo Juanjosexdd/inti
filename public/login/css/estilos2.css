@@ -1,0 +1,112 @@
+@font-face {
+  font-family: FuentePrimaria;
+  src: url(../font/Oswald-Regular-Fuente-Primadia.ttf); }
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../font/OpenSans-Regular.ttf); }
+@font-face {
+  font-family: FuenteTerciaria;
+  src: url(../font/KoHo-Regular-Fuente-Terciaria.ttf); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto; }
+
+html {
+  background-color: #ccc;
+  display: flex; }
+
+.banda {
+  background-color: #34495E;
+  width: 100%;
+  height: 35px; }
+  .banda ul {
+    display: flex;
+    justify-content: wrap;
+    list-style: none; }
+    .banda ul li {
+      font-family: FuentePrimaria, "Oswald", sans-serif;
+      letter-spacing: 0px;
+      padding: 5px 20px; }
+      .banda ul li a {
+        text-decoration: none;
+        color: #fff; }
+
+.aside {
+  width: 200px;
+  margin: 8px 0px;
+  margin-right: 8px;
+  background-color: #164F2F;
+  display: inline-block; }
+  .aside ul {
+    list-style: none; }
+    .aside ul .titulo {
+      width: 200px;
+      height: 50px;
+      color: #fff;
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      font-size: 20px;
+      font-family: FuentePrimaria, "Oswald", sans-serif; }
+    .aside ul li {
+      padding: 12px; }
+      .aside ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: FuentePrimaria, "Oswald", sans-serif;
+        font-size: 18px; }
+
+section {
+  float: right;
+  margin-top: 8px; }
+  section .contenedor, section form {
+    width: 800px;
+    border: 1px solid #6D716E;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 15px; }
+    section .contenedor .titulo, section form .titulo {
+      margin: 20px;
+      font-family: FuentePrimaria, "Oswald", sans-serif;
+      border-bottom: 1px solid #6D716E; }
+    section .contenedor .registro, section form .registro {
+      width: 750px;
+      display: flex;
+      margin: auto;
+      padding: 10px;
+      border: 4px double #000;
+      border-radius: 3px; }
+      section .contenedor .registro .datos, section form .registro .datos {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+        margin: 15px 0px; }
+        section .contenedor .registro .datos label, section form .registro .datos label {
+          font-family: FuentePrimaria, "Oswald", sans-serif;
+          font-size: 15px;
+          color: #000;
+          letter-spacing: 1.5px;
+          margin-top: 5px;
+          border-radius: 4px; }
+        section .contenedor .registro .datos input,
+        section .contenedor .registro .datos select, section form .registro .datos input,
+        section form .registro .datos select {
+          display: inline-block;
+          font-family: FuenteSegundaria, "Lobster Two", cursive;
+          font-size: 18px;
+          letter-spacing: 1.2px;
+          width: 250px;
+          height: 45px;
+          border: 1px solid #000;
+          background: transparent;
+          color: #000;
+          border-radius: 4px; }
+          section .contenedor .registro .datos input:focus,
+          section .contenedor .registro .datos select:focus, section form .registro .datos input:focus,
+          section form .registro .datos select:focus {
+            outline: none;
+            border: 1px solid goldenrod;
+            border-radius: 4px; }
+
+/*# sourceMappingURL=estilos2.css.map */

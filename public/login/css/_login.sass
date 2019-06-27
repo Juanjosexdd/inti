@@ -1,0 +1,117 @@
+
+
+.logo
+	width: 150px
+	height: 100px
+	margin: auto
+	img
+		width: 100%
+		margin: 20px
+.login
+	display: flex
+	justify-content: center
+	margin: auto
+	width: 500px
+	padding: 10px
+	background-color: rgba(154, 223, 156, 0.6)
+	border: 4px double #fff
+	border-radius: 3px
+	box-shadow: 5px 5px 5px #000
+	
+	form
+		width: 400px
+		margin: auto
+		padding: 15px
+		.usuario
+			overflow: hidden
+			margin: auto
+		.group
+			margin-top: 20px 
+			display: flex
+			padding: 10px 5px
+			background-color: rgba(52, 164, 53, 0.6)
+			i
+				color: #ce1818
+	label 
+		display: block
+		font-family: 'Open Sans', sans-serif
+		font-size: 18px
+		color: #000
+		letter-spacing: 1.5px
+		margin-bottom: 10px
+		font-style: italic
+	
+input[type="email"],
+input[type="password"]
+	font-family: 'Open Sans', sans-serif
+	font-size: 18px
+	letter-spacing: 1.2px
+	text-indent: 8px
+	width: 100%
+	height: 25px
+	border: none
+	background: transparent
+	color: #000
+
+input[type=checkbox].css-checkbox
+	//position: absolute
+	//overflow: hidden
+	clip: rect(0 0 0 0)
+	height: 18px
+	width: 18px
+	margin: 5px
+	padding: 0
+	border: 5px
+
+
+input[type="email"]:focus,
+input[type="password"]:focus
+	outline: none
+	border: 2px solid goldenrod
+	border-radius: 4px
+.forgot
+	margin: 8px
+	a
+		display: inline-block
+		margin: 10px 18px
+		font-family: 'Open Sans', sans-serif
+		color: #000
+		text-align: center
+		font-size: 18px
+		text-decoration: none
+	p
+		font-family: 'Open Sans', sans-serif
+		letter-spacing: 1.5px
+		color: #000
+		text-align: center
+		//margin: 0px
+		font-size: 18px
+	button 
+		background: rgba(52, 164, 53, 0.6)
+		color: #fff
+		font-size: 18px
+		font-family: 'Open Sans', sans-serif
+		text-transform: uppercase
+		letter-spacing: 1px
+		border: none
+		padding: 12px 60px
+		cursor: pointer
+		width: 100%
+		border-radius: 6px
+		&:hover 
+			background-color: #E9E299
+			color: #000
+			transition-duration: 3s
+.error 
+	display: none
+	margin-top: 20px
+	border-radius: 3px
+	background: #ce1818
+	font-family: 'Open Sans', sans-serif
+	word-spacing: 2px
+	letter-spacing: 2px
+	font-size: 15px
+	color: #fff
+	padding: 15px 10px
+	padding-left: 40px
+	margin-bottom: 10px

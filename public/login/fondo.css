@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    }
+
+.fondo{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+    }
+
+.slider{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	filter: blur(3px);
+	list-style: none;
+	background-image:url(img/fondo2.png);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh; 
+	background-attachment: fixed;
+
+	/*background-image: url(img/fondo1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	*/
+	
+	z-index: -1 ;
+    }
+
+.slider li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-position: center center;
+	animation: slider 20s linear infinite;
+	-webkit-animation: slider 20s linear infinite;
+	-moz-animation: slider 20s linear infinite;
+	-ms-animation: slider 20s linear infinite;
+	-o-animation: slider 20s linear infinite;
+    }
+
+
+.slider .img1{
+	background-image: url(img/fondo4.png);
+	animation-delay: 5s;
+}
+
+.slider .img2{
+	background-image: url(img/fondo3.png);
+	animation-delay: 10s;
+}
+
+.slider .img3{
+	background-image: url(img/fondo1.png);
+	animation-delay: 15s;
+}
+
+@keyframes slider{
+	0%{opacity: 0; animation-timing-function: ease-in;}
+	25%{opacity: 1; animation-timing-function: ease-out;}
+	50%{opacity: 1; transform: scale(1);}
+	75%{opacity:0;	transform: scale(2);}
+	100%{opacity: 0;}
+	}
+
+
+
+@-moz-keyframes slider{
+	0%{opacity: 0; animation-timing-function: ease-in;}
+	10%{opacity: 1; animation-timing-function: ease-out;}
+	25%{opacity: 1; transform: scale(1);}
+	50%{opacity:0;	transform: scale(2);}
+	100%{opacity: 0;}
+	}
+@-webkit-keyframes slider{
+	0%{opacity: 0; animation-timing-function: ease-in;}
+	25%{opacity: 1; animation-timing-function: ease-out;}
+	50%{opacity: 1; transform: scale(1);}
+	75%{opacity:0;	transform: scale(2);}
+	100%{opacity: 0;}
+	}
+
+@-o-keyframes slider{
+	0%{opacity: 0; animation-timing-function: ease-in;}
+	10%{opacity: 1; animation-timing-function: ease-out;}
+	25%{opacity: 1; transform: scale(1);}
+	50%{opacity:0;	transform: scale(2);}
+	100%{opacity: 0;}
+	}
+@-ms-keyframes slider{
+	0%{opacity: 0; animation-timing-function: ease-in;}
+	10%{opacity: 1; animation-timing-function: ease-out;}
+	25%{opacity: 1; transform: scale(1);}
+	50%{opacity:0;	transform: scale(2);}
+	100%{opacity: 0;}
+	}
+
+
+
+
+
+
